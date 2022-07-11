@@ -14,6 +14,8 @@
     --body-font: font-family: 'Montserrat', sans-serif;
 
 
+    --item-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+
 
     --item-border: 1px solid #D9D9D9;
 
@@ -233,6 +235,11 @@ p {
     display: flex;
 }
 
+.box-item:hover {
+    box-shadow: var(--item-shadow);
+    transition-duration: 400ms;
+}
+
 .item-icon {
     width: 56px;
     height: 56px;
@@ -262,6 +269,11 @@ p {
     border-radius: 10px;
     width: 400px;
     margin: 15px;
+}
+
+.post-item:hover {
+    box-shadow: var(--item-shadow);
+    transition-duration: 400ms;
 }
 
 .post-img {
