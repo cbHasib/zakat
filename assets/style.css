@@ -91,11 +91,16 @@ display: inline-block;
     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.3);
     transition-duration: 400ms;
 }
-img:hover{
+
+
+.content-img:hover{
     box-shadow: none;
     margin-left: 3px;
     transition-duration: 400ms;
 }
+
+
+
 
 
 
@@ -172,6 +177,13 @@ img:hover{
     transition-duration: 400ms;
 }
 
+ 
+.overlay-img:hover{
+    box-shadow: none;
+    margin-left: 3px;
+    transition-duration: 400ms;
+}
+
 .half-width-img{
     width: 50%;
     padding: 0% 1%;
@@ -181,12 +193,128 @@ img:hover{
 
 .section-center-text{
     text-align: center;
-    padding: 0% 25%;
+    padding: 0% 1%;
 }
 
+
+.full-width{
+    width: 84%;
+    padding: 100px 8%;
+}
+
+.box-content{
+    padding: 0 10%;;
+}
 
 .section-center-text h2{
     font-size: 45px;
     font-weight: 700;    font-family: var(--title-font);
     
 }
+
+
+.item-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box-item{
+    background: #FEF4F5;
+    padding: 40px;
+    margin: 1%;
+    width: 450px;
+    border-radius: 10px;
+
+    display: flex;
+}
+
+.item-icon{
+    width: 56px;
+    height: 56px;
+}
+
+.box-text{
+    margin-left: 30px;
+}
+
+.box-text h3{
+    margin-top: 0px;
+}
+
+.box-text p{
+    margin-bottom: 0px;
+}
+
+.item-img{
+    margin: 1%;
+    width: 380px;
+    border-radius: 10px;
+}
+
+
+.post-item{
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    width: 400px;
+    margin: 15px;
+}
+.post-img{
+    align-content: center;
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+}
+.post-item h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.post-item p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.post-item a{
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.post-item a:hover{
+    color: var(--black);
+}
+
+.text-post{
+    margin: 25px 30px;
+}
+
+
+
+
+
+/*============= Footer Section Style Start =============*/
+
+footer {
+    text-align: center;
+    background-color: #121212;
+    padding: 30px;
+    margin: 0%;
+}
+
+footer h3 {
+    color: #FF5959;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0%;
+}
+
+footer p {
+    margin: 0%;
+    color: #707070;
+}
+
+
+/*============= Footer Section Style End =============*/
